@@ -1,6 +1,10 @@
 # hello-world
 1st repository to get started with GitHub. This repo contains a set of handy git commands to enable beginners to get started with Open Source Development & Version Control.
 
+### Basic Git Workflow:
+
+![](docs/png/GitFlow.png)
+
 0. #### First Time Setup ( After installing Git. )
 
     `git config --global user.name <your-name>`
