@@ -40,7 +40,8 @@
 
     `git log`
 
-
+## Best Practices:
+Go through this document for a list of best practices while using git: [Best Practices](BEST_PRACTICES.md)
 ## Contributions
 
 Contributions are welcome.
