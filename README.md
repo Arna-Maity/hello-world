@@ -22,7 +22,7 @@
 
 3. #### Add files from working area to staging area.
 
-    `git add <filename> | -A`
+    `git add  { <filename> | -A }` 
 
     Using the ' -A ' option instead of specifying a file name will transfer all the unstaged changes to the staging area.
 
@@ -39,6 +39,37 @@
 6. #### View a history of the commits you've made to your repo.
 
     `git log`
+
+7. #### Create a new git branch.
+
+    `git branch <branch-name>`
+
+8. #### Get a list of all the git branches in local repo.
+
+    `git branch`
+
+    Ex:
+
+        git branch
+
+        Lists all the local branches. 
+
+        git branch -r 
+
+        Lists all the branches in the Remote Repository.
+
+
+        git branch -a
+
+        Lists all local & remote branches.
+
+9. #### Switch to a different git branch.
+
+    `git checkout <branch-name>`
+
+10. #### Fetch changes from the remote repo.
+
+    `git pull origin`
 
 ## Best Practices:
 Go through this document for a list of best practices while using git: [Best Practices](BEST_PRACTICES.md)
