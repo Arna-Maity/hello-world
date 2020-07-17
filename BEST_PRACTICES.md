@@ -16,3 +16,7 @@
 3. *Regularly rebase your feature branches against the master/default branch.*
 
     This helps to maintain a linear history for your git repo which will help you avoid complicated scenarios of merge conflicts and help maintain the project with ease in long run.
+
+4. *Keep your local copy of a forked repo in sync with the changes in the upstream repo.*
+
+    This helps in avoiding merge conflicts in the future.
