@@ -44,6 +44,10 @@
 
     `git branch -d upstream/master`
 
+    This will sync your local repo with the upstream, if you want to reflect the changes to your remote forked repo, simply push the changes to the remote origin repo using the following command.
+
+    `git push -u origin master`
+
 5. #### List all the configured remote repos.
 
     `git remote -v`
